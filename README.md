@@ -16,6 +16,16 @@ Each order comes as a fully tested and assembled PCB and 2x extra terminal block
 
 ### Updates
 
+#### 2021-12-06 Pull Request dismissed
+
+The set of improvements freely provided to Adafruit under [this PR](https://github.com/adafruit/Adafruit-Stereo-Speaker-Bonnet-PCB/pull/2) has been dismissed. Adafruit has thus also chosen not to provide documentation on how to mitigate the start/stop pops issue for rev. B and rev. C boards which are still being sold at the time of this writing. Their comment 
+
+	instead of merging we are going to manually edit files
+	
+however seems to suggest cherry-picked improvements will be used by Adafruit without adhering to the idea of attribution.
+
+Fixes and future improvements will thus only be provided in this repository
+
 #### 2021-11-29 swap left and right channels 
 
 Swap channels on PCB. This impacts only the speakers connected via JST-PH header X3 when replacing the board. The revision is now called "B+". Component coordinates and paste stencil of Rev B can be re-used.
